@@ -8,8 +8,8 @@ if(file_exists('../serial-critique-private/config-bd.php'))  // fichier de confi
 	require('../serial-critique-private/config-bd.php');
 else {
 	define('SERVEUR', 'bdw.univ-lyon1.fr');
-	define('UTILISATRICE', 'p2308737'); // votre login, par exemple p1234567
-	define('MOTDEPASSE', 'Ranged25Dairy'); // votre mot de passe, par exemple Abcd12Efgh
-	define('BDD', 'p2308737'); // votre BD, par exemple p1234567	
+	define('UTILISATRICE', '##'); // votre login, par exemple p1234567
+	define('MOTDEPASSE', '##'); // votre mot de passe, par exemple Abcd12Efgh
+	define('BDD', '##'); // votre BD, par exemple p1234567	
 }
 ?>
